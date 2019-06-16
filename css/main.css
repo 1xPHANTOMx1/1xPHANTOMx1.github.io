@@ -16,7 +16,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
 }
 
 p {
@@ -49,7 +48,7 @@ hr {
 
 .navbar {
     font-weight: 800;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -59,13 +58,12 @@ hr {
     border-color: #2d2d2d;
 }
 
-.navbar-inverse .navbar-nav > .active > a {
-    background-color: #ff7878;
+.navbar-inverse .navbar-nav > .active > a{
+    background: #853636 !important;
 }
 
 .navbar-inverse .navbar-brand {
     color: #999;
-    font-weight: bolder;
     font-size: 22px;
     letter-spacing: 1px;
 }
